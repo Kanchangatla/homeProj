@@ -1,0 +1,23 @@
+#main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    height: 1000px;
+    overflow: scroll;
+  }
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+  }
+  body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+  }
