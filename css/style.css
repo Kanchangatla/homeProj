@@ -1,54 +1,101 @@
-
+*{
+margin: 0;
+padding: 0;
+}
+.logo{
+    text-align: left;
+    line-height: 100px;
+    width: 30%;
+    float:left;
+}
+  
   body {
-    margin: 0;
-    padding: 0 10px 0 10px;
+    text-align: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-style: italic;
-    background-color:rgb(160, 101, 172);
+    background-color:rgb(158, 48, 180);
   }
-  .nav{
-      background-color:rgb(212, 230, 230);
-      color:blanchedalmond;
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: bold;
-      list-style: none;
-      text-align:center;
-      padding: 20px 0 0 0;
-  }
-  .nav > li {
-      display: inline-block;
-      padding:0 25px 0 25px;
+  .wrapper{
+          width: 90%;
+          margin: 0 auto;
 
   }
-  .nav > li > a {
+  header{
+      width: 100%;
+      height: 100px;
+      background-color:rgb(199, 147, 173);
+      position: fixed;
+  }
+  .logo a{
       text-decoration: none;
-      color:black;
-  }
-  .nav > li > a:hover {
-      color:bisque;
-  }
-  .logo{
-      color:black;
-      float: left;
-      padding-left: 20px;
-      font-size: 16px;
-      font-weight: bold;
-
-  }
-  .logo > a {
-      text-decoration: none;
-      color:black;
-
-  }
-  .banner {
-      width: 80%;
-      display: block;
-  }
-  .banner > .banner-image{
-      width: 80%;
-      display:block;
-      padding:0 20px 0 20px;
+      font-size: 40px;
+      font-family:'Times New Roman', Times, serif;
+      color:rgb(8, 0, 8);
+      letter-spacing: 4px;
+      
+}
+nav{
+    float:right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color:darkmagenta;
+    padding: 36px 10px;
+    margin:0 1px;
+    font-weight: 700;
+}
+nav a:hover{
+    background-color:darkmagenta;
+    color:black;
+}
+.banner-area{
+    background-image:url(../Images/Beautiful\ palce.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 180px;
+    height: 800px;
+    width: 100% ;
+    position:fixed;
+}
+.banner-area:after{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    display:block;
+    width: 100%;
+    height: 100%;
+    background:cornsilk;
+    opacity: .7;
+    z-index: -1;
+}
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 25px;
+    color:black;
+}
+.content-area{
+    width: 50%;
+    height: 400%;
+    position: relative;
+    background: blanchedalmond;
+    top: 400px;
+}
+.content-area h2{
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 4px;
+}
+.content-area p{
+    line-height: 50px;
+    text-align: justify;
+    top: 40%;
     
-
-    }
+}
+  
